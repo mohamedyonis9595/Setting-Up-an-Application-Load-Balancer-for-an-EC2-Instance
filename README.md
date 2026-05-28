@@ -2,7 +2,7 @@
 
 ### 1. Security Infrastructure Topology
 Configured a dedicated public-facing Security Group (`devops-sg`) explicitly opening inbound `HTTP` traffic vectors on Port `80` to allow traffic from the open internet:
-(./images/1.jpg)
+(/images/1.jpg)
 
 ### 2. High-Availability Load Balancing Setup
 Initiated a Layer 7 Application Load Balancer (`devops-alb`) to balance workloads across the infrastructure:
