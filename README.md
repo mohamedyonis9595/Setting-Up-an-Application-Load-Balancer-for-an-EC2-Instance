@@ -2,17 +2,17 @@
 
 Configured a dedicated public-facing Security Group (devops-sg) explicitly opening inbound HTTP traffic vectors on Port 80 to allow traffic from the open internet:
 
-![Image 1](./images/1.jpg)
+![Image 1](./images/1.png)
 
 ### 2. High-Availability Load Balancing Setup
 
 Initiated a Layer 7 Application Load Balancer (devops-alb) to balance workloads across the infrastructure:
 
-![Image 3](./images/3.jpg)
+![Image 3](./images/3.png)
 
 Configured multi-Availability Zone network mappings to ensure high availability and resilient public routing:
 
-![Image 4](./images/4.jpg)
+![Image 4](./images/4.png)
 
 Linked inbound traffic channels directly to target groups via specialized listener routing mechanics:
 
@@ -22,7 +22,7 @@ Linked inbound traffic channels directly to target groups via specialized listen
 
 Created the logical target group layer (devops-tg) tracking the health status and routing traffic directly to the backend computing assets:
 
-![Image 2](./images/2.jpg)
+![Image 2](./images/2.png)
 
 Verified security policy attachments directly on the backend compute interfaces to secure communication paths:
 
